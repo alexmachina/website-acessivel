@@ -41,35 +41,34 @@
                     Menu <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <img src="img/logo.png" />
-                    <!--
+                  <a href="index-es.html"><img src="img/logo.png" alt="Un ojo cercado por gradas" /></a>
+                  <!--
                     <i class="fa fa-play-circle"></i> <span class="light">Start</span> Bootstrap
-                        -->
+                  -->
                 </a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
-                    <li class="hidden">
-                        <a href="#page-top"></a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#about">Home</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="pages/es/esportes.html">Deportes</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="pages/es/atletas.html">Atletas</a>
-                    </li>
-                    <li><a href="index-en.html"><i class="fa fa-flag-o" aria-hidden="true"></i>en</a></li>
-                    <li><a href="index-pt.html"><i class="fa fa-flag-o" aria-hidden="true"></i>pt</a></li>
-                    <li><a href="index-es.html"><i class="fa fa-flag-o" aria-hidden="true"></i>es</a></li>
-                    <li><a  onclick="aumentarFonte()"> <h4>F+</h4> </a></li>
-                    <li><a onclick="diminuirFonte()"><h5>F-</h5></a></li>
-                </ul>
+              <ul class="nav navbar-nav">
+                <!-- Hidden li included to remove active class from about link when scrolled up past about section -->
+                <li class="hidden">
+                </li>
+                <li>
+                  <a class="page-scroll" href="index-es.html">Home</a>
+                </li>
+                <li>
+                  <a class="page-scroll" href="pages/es/esportes.html">Deportes</a>
+                </li>
+                <li>
+                  <a class="page-scroll" href="pages/es/atletas.html">Atletas</a>
+                </li>
+                <li><a href="index-en.html"><i class="fa fa-flag-o" aria-hidden="true"></i>en</a></li>
+                <li><a href="index-pt.html"><i class="fa fa-flag-o" aria-hidden="true"></i>pt</a></li>
+                <li><a href="index-es.html"><i class="fa fa-flag-o" aria-hidden="true"></i>es</a></li>
+                <li><a  onclick="aumentarFonte()"> <h4>F+</h4> </a></li>
+                <li><a onclick="diminuirFonte()"><h5>F-</h5></a></li>
+              </ul>
             </div>
             <!-- /.navbar-collapse -->
         </div>
@@ -78,33 +77,27 @@
 
     <!-- Intro Header -->
     <header class="intro">
-        <div class="intro-body">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">PARALIMPIAKOS</h1>
-                        <p class="intro-text">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-8 col-md-offset-2">
+              <h1 class="brand-heading">PARALIMPIAKOS</h1>
+              <p class="intro-text">
 
-  Sitio web que difunda los deportes paralímpicos y sus mejores atletas.
-                        </p>
-                        <a href="#about" class="btn page-scroll">
-                            <img src="img/logo.png" />
-                            <!--
-                            <i class="fa fa-angle-double-down animated"></i>
-                                -->
-                        </a>
-                    </div>
-                </div>
+              Sitio web que difunda los deportes paralímpicos y sus mejores atletas.
+              </p>
+              <a href="#about" class="btn page-scroll">
+                <img src="img/logo.png" alt="Un ojo cercado por gradas" />
+                <!--
+                  <i class="fa fa-angle-double-down animated"></i>
+                -->
+              </a>
             </div>
+          </div>
         </div>
+      </div>
     </header>
 
-  
-    <footer>
-        <div class="container text-center">
-            <p>Copyright &copy; Your Website 2016</p>
-        </div>
-    </footer>
 
     <!-- jQuery -->
     <script src="vendor/jquery/jquery.js"></script>
@@ -122,24 +115,24 @@
     <script src="js/grayscale.min.js"></script>
     <script>
 
-        function aumentarFonte() {
-         $('*').each(function(){
+function aumentarFonte() {
+  $('*').each(function(){
 
-         var k =  parseInt($(this).css('font-size'));
-         var redSize = ((k*110)/100) ; //here, you can give the percentage( now it is reduced to 90%)
-             $(this).css('font-size',redSize);
+    var k =  parseInt($(this).css('font-size'));
+    var redSize = ((k*110)/100) ; //here, you can give the percentage( now it is reduced to 90%)
+  $(this).css('font-size',redSize);
 
-         });
-       }
-       function diminuirFonte(){
-         $('*').each(function(){
+  });
+}
+function diminuirFonte(){
+  $('*').each(function(){
 
-         var k =  parseInt($(this).css('font-size'));
-         var redSize = ((k*90)/100) ; //here, you can give the percentage( now it is reduced to 90%)
-             $(this).css('font-size',redSize);
+    var k =  parseInt($(this).css('font-size'));
+    var redSize = ((k*90)/100) ; //here, you can give the percentage( now it is reduced to 90%)
+  $(this).css('font-size',redSize);
 
-         });
-       }
+  });
+}
 
     </script>
 </body>
